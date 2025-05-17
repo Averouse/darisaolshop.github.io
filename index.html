@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarisaOlshop - Belanja Online Mudah dan Aman</title>
+    <!-- Flowbite CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <!-- Logo -->
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-500 text-lg">DarisaOlshop</span>
+                        </a>
+                    </div>
+                    <!-- Navbar Items -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-purple-500">Beranda</a>
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-purple-500">Kategori</a>
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-purple-500">Produk</a>
+                        <a href="#" class="py-4 px-2 text-gray-500 font-semibold hover:text-purple-500">Tentang Kami</a>
+                    </div>
+                </div>
+                <!-- Search Bar -->
+                <div class="flex items-center">
+                    <input type="text" placeholder="Cari produk..." class="px-4 py-2 rounded-l-full border border-gray-300 focus:outline-none">
+                    <button class="px-4 py-2 bg-purple-500 text-white rounded-r-full hover:bg-purple-600 focus:outline-none">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <!-- Icons -->
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#" class="py-2 px-2 text-gray-500 hover:text-purple-500">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#" class="py-2 px-2 text-gray-500 hover:text-purple-500">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-purple-500 py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-white">Selamat Datang di DarisaOlshop</h1>
+                <p class="mt-4 text-lg text-white">Temukan produk terbaik dengan harga terbaik hanya di sini.</p>
+                <a href="#" class="mt-6 inline-block bg-white text-purple-500 py-2 px-6 rounded-full font-semibold hover:bg-gray-100">Mulai Belanja</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Section -->
+    <div class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold text-gray-800">Produk Populer</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <!-- Product Card -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">Nama Produk 1</h3>
+                    <p class="text-gray-600">Deskripsi singkat produk 1.</p>
+                    <div class="mt-4">
+                        <span class="text-purple-500 font-bold">Rp 100.000</span>
+                        <button class="ml-2 px-4 py-2 bg-purple-500 text-white rounded-full hover:bg-purple-600">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Product 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">Nama Produk 2</h3>
+                    <p class="text-gray-600">Deskripsi singkat produk 2.</p>
+                    <div class="mt-4">
+                        <span class="text-purple-500 font-bold">Rp 150.000</span>
+                        <button class="ml-2 px-4 py-2 bg-purple-500 text-white rounded-full hover:bg-purple-600">Beli</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Product 3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-semibold text-lg">Nama Produk 3</h3>
+                    <p class="text-gray-600">Deskripsi singkat produk 3.</p>
+                    <div class="mt-4">
+                        <span class="text-purple-500 font-bold">Rp 200.000</span>
+                        <button class="ml-2 px-4 py-2 bg-purple-500 text-white rounded-full hover:bg-purple-600">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-lg mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-6">
+            <div class="flex justify-between">
+                <div>
+                    <span class="font-semibold text-gray-500">DarisaOlshop</span>
+                    <p class="text-gray-500">© 2023 DarisaOlshop. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-500 hover:text-purple-500">Kebijakan Privasi</a>
+                    <a href="#" class="text-gray-500 hover:text-purple-500">Syarat & Ketentuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Flowbite JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
